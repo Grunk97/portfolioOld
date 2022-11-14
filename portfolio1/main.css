@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&display=swap');
+
+.container-fluid {
+    width: 100%;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.logo1 {
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+.navbar-custom {
+    background-color: #24252A;
+}
+
+.navbar-custom .navbar-nav .menu-text .nav-link {
+    color: white;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navbar-custom .navbar-nav .menu-text .nav-link:hover {
+    color: rgba(0, 136, 169, 1);
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-custom .navbar-nav .kontakt .nav-link {
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar-custom .navbar-nav .kontakt .nav-link:hover {
+    background-color: rgba(0, 136, 169, .8);
+    border-radius: 25px;
+    color: white;
+}
+
+.highlight {
+    color: rgba(0, 136, 169, 1);
+    font-weight: bold;
+  }
+
+.forsidetekst {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-top: 200px;
+    text-align: center;
+    color: black;
+  }
+
+  .forsidetekst1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+  .forsidetekst3 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+  }
+
+  .forside1 {
+    width: 35em;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 100px -50px 5px 500px;
+  }
+
+.mig {
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 750px;
+}
+
+hr.line {
+    border-top: 3px solid black;
+    border-radius: 1px;
+    margin-bottom: 150px;
+}
+
+.blue {
+    background-color: rgba(0, 4, 27, 0.9);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.overskrift {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.tekst {
+    margin-bottom: 80px;
+}
+
+.element {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: rgba(0, 4, 27, 0.9);
+    margin-left: 75%;
+}
+
+.overskrift1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: black;
+    font-size: xx-large;
+}
+
+.cv {
+    margin-bottom: 100px;
+}
+
+.cv1 {
+    text-align: center;
+    background: rgba(0, 136, 169, 1);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    transition: 0.8s;
+    border: 0px;
+    margin-top: 100px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cv1:hover {
+    background: rgba(0, 36, 69, 1);
+    border: 0px;
+    color: white;
+  }
+
+  .bar {
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+    margin-bottom: 30px;
+  }
+  
+  .bar span {
+    height: 10px;
+    float: left;
+    background: rgba(0, 136, 169, 1);
+  }
+  
+  .html {
+    width: 90%;
+    animation: html 2s;
+  }
+  
+  .css {
+    width: 90%;
+    animation: css 2s;
+  }
+  
+  .java {
+    width: 40%;
+    animation: java 2s;
+  }
+  
+  .wordp {
+    width: 65%;
+    animation: wordp 2s;
+  }
+
+  .boot {
+    width: 85%;
+    animation: boot 2s;
+  }
+
+  @keyframes html {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 90%
+    }
+  }
+  
+  @keyframes css {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 90%
+    }
+  }
+  
+  @keyframes java {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 40%
+    }
+  }
+  
+  @keyframes wordp {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 65%
+    }
+  }
+
+  @keyframes boot {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 85%
+    }
+  }
+  
+  .ps {
+    width: 60%;
+    animation: ps 2s;
+  }
+  
+  .xd {
+    width: 90%;
+    animation: xd 2s;
+  }
+  
+  .ai {
+    width: 40%;
+    animation: ai 2s;
+  }
+  
+  .after {
+    width: 20%;
+    animation: after 2s;
+  }
+  
+  .prem {
+    width: 30%;
+    animation: prem 2s;
+  }
+  
+  @keyframes ps {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 60%
+    }
+  }
+  
+  @keyframes xd {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 90%
+    }
+  }
+  
+  @keyframes ai {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 40%
+    }
+  }
+  
+  @keyframes after {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 20%
+    }
+  }
+  
+  @keyframes prem {
+    0% {
+      width: 0%
+    }
+  
+    100% {
+      width: 30%
+    }
+  }
+
+  .box {
+    box-sizing: border-box;
+    border: 20px solid transparent;
+    background-clip:padding-box;
+  }
+
+  .sem {
+    background: rgba(0, 136, 169, 1);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    transition: 0.8s;
+    border: 0px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sem:hover {
+    background: rgba(0, 36, 69, 1);
+    border: 0px;
+    color: white;
+  }
+
+  .sem1 {
+      margin-bottom: 120px;
+  }
+
+  .sem2 {
+      margin-bottom: 8px;
+  }
+  
+  .forsidetekst2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+    margin-bottom: 100px;
+  }
+
+  .sem1 .btn-lg {
+    background-color: rgba(0, 136, 169, 1);
+    border: 0px;
+    transition: 0.8s;
+}
+
+  .sem1 .btn-lg:hover {
+    background: rgba(0, 36, 69, 1);
+    border: 0px;
+    color: white;
+  }
+
+  .sem2 .btn-lg {
+      background-color: rgba(0, 136, 169, 1);
+      border: 0px;
+      transition: 0.8s;
+  }
+
+  .sem2 .btn-lg:hover {
+    background: rgba(0, 36, 69, 1);
+    border: 0px;
+    color: white;
+  }
+
+  .element1 {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: rgba(0, 4, 27, 0.9);
+    margin-left: 25%;
+  }
+
+  .wrapper {
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0px 20%;
+    margin-top: 200px;
+  }
+  
+  .kontakt_form {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #24252A;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13)
+  }
+  
+  .input_felt {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input_felt, .besked {
+    width: 60%;
+  }
+  
+  .input_felt .input, .besked {
+    margin: 5px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 136, 169);
+    padding: 10px;
+    color: rgba(0, 136, 169);
+    width: 100%;
+  }
+  
+  .besked textarea {
+    height: 212px;
+    width: 500px;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgba(0, 136, 169, 1);
+  }
+  
+  ::-moz-input-placeholder {
+    color: rgba(0, 136, 169, 1);
+  }
+  
+  ::-ms-input-placeholder {
+    color: rgba(0, 136, 169, 1);
+  }
+  
+  .knap1 {
+    background: rgba(0, 136, 169);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .pic123{
+    background-image: url(img/pic123.png);
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .facebook, .insta, .twitter, .linkedin {
+    width: 22px;
+    height: 22px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  footer {
+    background-color: #24252A;
+  }
+  
+  .copyrightleft {
+    float: left;
+    color: #626262;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .copyright1 {
+    color: rgba(0, 136, 169, 1);
+  }
+
+  .insta {
+      margin-left: 20px;
+  }
+
+  .twitter {
+    margin-left: 20px;
+}
+
+  .linkedin {
+    margin-left: 20px;
+}
+
+.yt1 {
+    margin-bottom: 80px;
+}
+
+.yt {
+  height: 300px;
+  width: 500px;
+}
+
+.row .flowsem {
+    margin-top: 50px;
+}
+.row .card1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-body {
+    color: black;
+}
+
+.card {
+    box-shadow: 0 1.4rem 8rem rgb(0, 55, 111);
+    margin-bottom: 150px;
+}
